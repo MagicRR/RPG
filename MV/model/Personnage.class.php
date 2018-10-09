@@ -8,7 +8,8 @@ class Personnage
     private $lifeBeforeAttack;
     private $attack;
 
-    public function __construct($pseudo, $life, $attack){
+    public function __construct($pseudo, $life, $attack)
+    {
         $this->pseudo = $pseudo;
         $this->life = $life;
         $this->attack = $attack;
